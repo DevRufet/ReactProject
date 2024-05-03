@@ -1,0 +1,19 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+}
+.homeitem{
+    border: 1px solid black;
+display: flex;
+justify-content: start;
+flex-direction: column;
+
+    img{
+        width: 50%;
+    }
+}
+a{
+    text-decoration: none;
+}

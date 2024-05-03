@@ -1,0 +1,24 @@
+.navbar{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    div{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+    a:hover{
+        color: red;
+        transition: 1s;
+    }
+}
